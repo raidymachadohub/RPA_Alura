@@ -1,4 +1,4 @@
-# RPA.ALURA- .NET 6 Worker e MVC
+# RPA.ALURA- .NET 6 MVC API
 
 ## Contexto Primário
 
