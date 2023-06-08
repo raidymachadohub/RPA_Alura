@@ -38,7 +38,7 @@ public class RoutineRepository : IRoutineRepository, IDisposable
                 return Result.Fail(new Error(ErrorType.Internal, "Object Routine is null"));
             
             await _context.Routine.AddAsync(routine);
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
             
             Dispose();
             

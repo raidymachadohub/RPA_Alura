@@ -36,7 +36,7 @@ public class SeleniumService : ISeleniumService
         {
             var course = _seleniumFacade.CaptureData(routine);
 
-            _courseService.AddCourseAsync(course.Value);
+            await _courseService.AddCourseAsync(course.Value);
 
             routine.Active = false;
 
