@@ -11,7 +11,7 @@ dotnet ef --startup-project ../RPA.Alura.Application migrations add  <NomeDaMigr
 ```
 
 Frameworks usado para o projeto.
-
+- WebDriverChrome - O teste tem que ser efetuado no Google Chrome.
 - Entity Framework - Para persistencia de dados.
 - AutoMapper - Para mapeamento de campos entre o dominio e os DTOs
 - Selenium - Para coleta dos dados
