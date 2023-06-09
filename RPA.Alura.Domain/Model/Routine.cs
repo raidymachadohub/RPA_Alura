@@ -13,4 +13,9 @@ public class Routine
         TitleSearch = titleSearch;
         Active = active;
     }
+
+    public Routine()
+    {
+        
+    }
 }

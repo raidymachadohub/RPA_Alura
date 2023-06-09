@@ -27,4 +27,9 @@ public class Courses
         Description = description;
         Routine = routine;
     }
+
+    public Courses()
+    {
+        
+    }
 }
