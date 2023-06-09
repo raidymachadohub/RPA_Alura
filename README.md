@@ -29,3 +29,17 @@ Frameworks usado para o projeto.
 - Result Patterns - Foi usado o padrão de resultado para melhor visualização e tratamento de errros - https://github.com/victorDivino/operationResult
 - Facade Patterns - Para consulta de um subsistema. https://refactoring.guru/design-patterns/facade
 - Di - Injeção de dependencia.
+
+Usando o Swagger.
+
+No endpoint /routine.
+
+{
+  "id": 0,
+  "titleSearch": "string", <- Incluir o nome do curso que deseja ser processado.
+  "active": true
+}
+
+No endpoint /Selenium/ExecutarRotina você consegue rodar a automação todas as Routine com a flag:true.
+
+No endpoint /course você consegue visualizar todas as informações do curso coletado.
