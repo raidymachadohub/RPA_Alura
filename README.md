@@ -2,6 +2,12 @@
 
 ## Contexto Primário
 
+
+Projeto para coleta de informações usando SELENIUM no site do Alura, onde é informado o nome do curso e é coletado. 
+1 - Descrição
+2 - Professor Nome
+3 - Total horas.
+
 ```
 Para rodar os migrations abrir terminal no projeto ##RPA.Alura.Infrastrucure e executar o migration
 ```
